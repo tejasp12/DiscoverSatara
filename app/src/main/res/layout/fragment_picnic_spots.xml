@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.android.discoversatara.HotelsFragment">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:id="@+id/picture_layout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background=""
+            android:contentDescription="@string/hotels_symbol"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background=""
+            android:contentDescription="@string/hotels_symbol"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background=""
+            android:contentDescription="@string/hotels_symbol"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background=""
+            android:contentDescription="@string/hotels_symbol"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
+    <TextView
+        android:id="@+id/explore_hotels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="@string/yes_the_last_and_the_best"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:layout_below="@id/picture_layout"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/explore_hotels"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="@string/explor_heaven_experience_picnic_spots"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"/>
+
+</RelativeLayout>
+

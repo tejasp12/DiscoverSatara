@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">DiscoverSatara</string>
+    <string name="hotel">Hotel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="startexploring">start_exploring</string>
+    <string name="loginIn">Login in</string>
+    <string name="login">LOGIN</string>
+    <string name="start_exploring">START EXPLORING</string>
+    <string name="hotels_symbol">Hotels_symbol</string>
+    <string name="explore_hotels_to_stay">Explore Hotels to Stay</string>
+    <string name="hill_resort_symbol">hill_resort_symbol</string>
+    <string name="explore_hill_resorts">Explore hill resorts</string>
+    <string name="explore_restaurants">explore restaurants</string>
+    <string name="find_the_best_place_to_stay">Find the best place to Stay</string>
+    <string name="find_the_best_hill_resorts_to_stay">Find the best Hill Resorts to Stay</string>
+    <string name="want_to_stay_with_clouds">Wants to Stay with Clouds?</string>
+    <string name="now_what_about_food">Now,What about food?</string>
+    <string name="find_the_best_veg_and_non_veg_restaurants">Find the best Veg and
+        Non-Veg Restaurants</string>
+    <string name="yes_the_last_and_the_best">Yes,the last and the Best</string>
+    <string name="explor_heaven_experience_picnic_spots">Explor Heaven experience Picnic Spots</string>
+    <string name="being_discover">Being Discoverable..!</string>
+    <string name="discover_satara">Discover Satara</string>
+    <string name="appicon">app_icon</string>
+    <string name="discover_satara_new">DISCOVER SATARA</string>
+    <string name="list_item_symbol">List_item_symbol</string>
+    <string name="address">Address</string>
+    <!-- Category name for Hotels [CHAR LIMIT=20] -->
+    <string name="cat_hotels">Hotels</string>
+
+    <!-- Category name for Hill Resorts [CHAR LIMIT=20] -->
+    <string name="cat_hill_resorts">Hill Resorts</string>
+
+    <!-- Category name for Restaurants[CHAR LIMIT=20] -->
+    <string name="cat_restos">Restaurants</string>
+
+    <!-- Category name for Picnic Spots [CHAR LIMIT=20] -->
+    <string name="cat_picnic_spots">Picnic Spots</string>
+</resources>
