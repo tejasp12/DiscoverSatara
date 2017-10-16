@@ -9,19 +9,21 @@
     <string name="login">LOGIN</string>
     <string name="start_exploring">START EXPLORING</string>
     <string name="hotels_symbol">Hotels_symbol</string>
-    <string name="explore_hotels_to_stay">Explore Hotels to Stay</string>
+    <string name="explore_hotels_to_stay">Hospitality is simply an Opportunity
+    to show Love and Care..!</string>
     <string name="hill_resort_symbol">hill_resort_symbol</string>
-    <string name="explore_hill_resorts">Explore hill resorts</string>
+    <string name="explore_hill_resorts">We have Best hill resorts to stay</string>
     <string name="explore_restaurants">explore restaurants</string>
-    <string name="find_the_best_place_to_stay">Find the best place to Stay</string>
-    <string name="find_the_best_hill_resorts_to_stay">Find the best Hill Resorts to Stay</string>
-    <string name="want_to_stay_with_clouds">Wants to Stay with Clouds?</string>
-    <string name="now_what_about_food">Now,What about food?</string>
-    <string name="find_the_best_veg_and_non_veg_restaurants">Find the best Veg and
-        Non-Veg Restaurants</string>
-    <string name="yes_the_last_and_the_best">Yes,the last and the Best</string>
-    <string name="explor_heaven_experience_picnic_spots">Explor Heaven experience Picnic Spots</string>
-    <string name="being_discover">Being Discoverable..!</string>
+    <string name="find_the_best_place_to_stay">**We have Best Hotels for you to Stay**</string>
+    <string name="find_the_best_hill_resorts_to_stay">Then, we have **Best Hill Resorts**
+        \n that gives you Heaven experience.</string>
+    <string name="want_to_stay_with_clouds">Want to Stay with Clouds?</string>
+    <string name="now_what_about_food">Nothing brings people together\n like Good Food.</string>
+    <string name="find_the_best_veg_and_non_veg_restaurants">We have Best **Veg and
+        Non-Veg Restaurants** for foodie people like you.</string>
+    <string name="yes_the_last_and_the_best">There is something for everybody\n at PICNIC DAY.</string>
+    <string name="explor_heaven_experience_picnic_spots">Heaven experience Picnic Spots</string>
+    <string name="being_discover">Be Discover..!</string>
     <string name="discover_satara">Discover Satara</string>
     <string name="appicon">app_icon</string>
     <string name="discover_satara_new">DISCOVER SATARA</string>
@@ -34,8 +36,16 @@
     <string name="cat_hill_resorts">Hill Resorts</string>
 
     <!-- Category name for Restaurants[CHAR LIMIT=20] -->
-    <string name="cat_restos">Restaurants</string>
+    <string name="cat_restos">Restos</string>
 
     <!-- Category name for Picnic Spots [CHAR LIMIT=20] -->
     <string name="cat_picnic_spots">Picnic Spots</string>
+    <string name="being_explorer">Be Explorer..!</string>
+    <string name="app_icon">app_icon</string>
+    <string name="discover_satara_name">DISCOVER SATARA</string>
+    <string name="welcome_satara">WELCOME TO THE SATARA</string>
+    <string name="HOTEL_RAJTARA">Hotel Maharaja</string>
+    <string name="sat">Satara</string>
+    <string name="Gulbahar">Hotel Gulbahar</string>
+    <string name="Galaxi">Hotel Galaxi</string>
 </resources>

@@ -10,9 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
-        android:background=""
-        android:contentDescription="@string/hotels_symbol"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:background="@drawable/hillstation_resort"
+        android:contentDescription="@string/hotels_symbol" />
 
     <TextView
         android:id="@+id/explore_hotels"
@@ -23,9 +23,9 @@
         android:gravity="center"
         android:text="@string/want_to_stay_with_clouds"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@android:color/white"
-        android:typeface="sans"
-        android:textStyle="bold"/>
+        android:textColor="#FFE57F"
+        android:textStyle="bold"
+        android:typeface="sans" />
 
     <TextView
         android:layout_width="match_parent"
@@ -37,7 +37,8 @@
         android:text="@string/find_the_best_hill_resorts_to_stay"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@android:color/white"
-        android:textStyle="italic"/>
+        android:textStyle="italic" />
 
 
 </RelativeLayout>
+

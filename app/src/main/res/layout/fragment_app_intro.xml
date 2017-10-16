@@ -5,23 +5,58 @@
     android:background="#000000"
     tools:context="com.example.android.discoversatara.HotelsFragment">
 
-<ImageView
-    android:layout_width="200dp"
-    android:layout_height="200dp"
-    android:src=""
-    android:layout_centerHorizontal="true"
-    android:layout_margin="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/discover_satara_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFE57F"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/app_icon"
+        android:src="@drawable/app_icon" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingBottom="8dp"
+        android:text="@string/welcome_satara"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFE57F"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/being_discover"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_margin="16dp"
-        android:gravity="center"
         android:text="@string/being_discover"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@android:color/white"
-        android:textStyle="italic"/>
+        android:textStyle="italic" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/being_discover"
+        android:layout_marginRight="45dp"
+        android:text="@string/being_explorer"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="italic" />
 
 </RelativeLayout>

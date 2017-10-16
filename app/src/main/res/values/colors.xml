@@ -4,4 +4,18 @@
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#FF4081</color>
     <color name="nav_bar_color">#F4FF81</color>
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the hotels category -->
+    <color name="category_hotels">#3E2723</color>
+
+    <!-- Background color for the hill resorts category -->
+    <color name="category_hill_resorts">#006064</color>
+
+    <!-- Background color for the Restaurants category -->
+    <color name="category_restos">#E65100</color>
+
+    <!-- Background color for the Picnic spots category -->
+    <color name="category_picnic_spots">#33691E</color>
 </resources>

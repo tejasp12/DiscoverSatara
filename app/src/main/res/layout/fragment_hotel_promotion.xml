@@ -10,9 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
-        android:background=""
-        android:contentDescription="@string/hotels_symbol"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:background="@drawable/hotels"
+        android:contentDescription="@string/hotels_symbol" />
 
     <TextView
         android:id="@+id/explore_hotels"
@@ -21,11 +21,11 @@
         android:layout_centerInParent="true"
         android:layout_margin="16dp"
         android:gravity="center"
-        android:text="@string/now_what_about_food"
+        android:text="@string/explore_hotels_to_stay"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@android:color/white"
-        android:typeface="sans"
-        android:textStyle="bold"/>
+        android:textColor="#FFE57F"
+        android:textStyle="bold"
+        android:typeface="sans" />
 
     <TextView
         android:layout_width="match_parent"
@@ -34,9 +34,9 @@
         android:layout_centerInParent="true"
         android:layout_margin="16dp"
         android:gravity="center"
-        android:text="@string/find_the_best_veg_and_non_veg_restaurants"
+        android:text="@string/find_the_best_place_to_stay"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@android:color/white"
-        android:textStyle="italic"/>
+        android:textStyle="italic" />
 
 </RelativeLayout>

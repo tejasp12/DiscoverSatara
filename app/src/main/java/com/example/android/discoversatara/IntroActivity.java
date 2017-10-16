@@ -14,33 +14,30 @@ public class IntroActivity extends AppIntro {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_intro);
         addSlide(new DiscoverSataraIntroFragment());
-        addSlide(new HotelsFragment());
-        addSlide(new HillResortsFragment());
-        addSlide(new RestaurantsFragment());
-        addSlide(new PicnicSpotsFragment());
+        addSlide(new HotelPromotionFragment());
+        addSlide(new HillResortsPrmotionFragment());
+        addSlide(new RestaurantsPromotionFragment());
+        addSlide(new PicnicSpotPromotionFragment());
         showSkipButton(true);
         setProgressButtonEnabled(true);
     }
+
     @Override
     public void onSkipPressed(Fragment currentFragment) {
         super.onSkipPressed(currentFragment);
-        Intent intentToMain = new Intent(IntroActivity.this,MainActivity.class);
+        Intent intentToMain = new Intent(IntroActivity.this, MainActivity.class);
         startActivity(intentToMain);
     }
+
     @Override
     public void onDonePressed(Fragment currentFragment) {
         super.onDonePressed(currentFragment);
-        Intent intentToMain = new Intent(IntroActivity.this,MainActivity.class);
+        Intent intentToMain = new Intent(IntroActivity.this, MainActivity.class);
         startActivity(intentToMain);
     }
 
     @Override
     public void setNavBarColor(@ColorRes int color) {
-        super.setNavBarColor( R.color.nav_bar_color);
-    }
-
-    @Override
-    public void setFlowAnimation() {
-        super.setFlowAnimation();
+        super.setNavBarColor(R.color.nav_bar_color);
     }
 }
